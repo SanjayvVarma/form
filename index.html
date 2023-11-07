@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="Firstname">Firstname</label>
+            <input type="text" id="Firstname" name="Firstname"><br><br>
+            <label for="Mname">Middlename:</label>
+            <input type="text" id="Mname" name="Mname"><br><br>
+            <label for="lname">Lastname:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="Courses">Course :</label>
+            <select name="Courses" id="Courses">
+                <option>Course</option>
+                <option>BCA</option>
+                <option>BBA</option>
+                <option>B.Tech</option>
+                <option>MBA</option>
+                <option>MCA</option>
+                <option>M.Tech</option>
+              </select><br><br>
+            <label for="Gender">Gender :</label><br>
+            <input type="radio" id="Male" name="Gender">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="Gender">
+            <label for="Female">Female</label><br>
+            <input type="radio" id="Other" name="Gender">
+            <label for="Other">Other</label><br><br>
+
+            <label for="Birthday">DOB</label>
+            <input type="datetime-local" id="Birthday" name="Birthday"><br>
+            <label for="phone">Phone :</label>
+            <input type="text" id="phone" name="phone" placeholder="+91" disabled required size="3">
+            <input type="text" id="phone" name="phone" size="10" maxlength=" 10 "><br><br>
+            <label for="add">Address</label><br>
+            <textarea id="add" cols="80" rows="5"></textarea><br><br>
+            <label for="mail">Email:</label>
+            <input type="text" id="mail" name="mail"><br><br><br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass"><br><br><br>
+            <label for="pass">Re-type password:</label>
+            <input type="password" id="pass" name="pass"><br><br>
+            <input type="checkbox" id="checkmark" name="checkmark">
+            <label for="checkmark">Agree to terms and conditions</label><br><br>
+            <label for="select">Choose File</label>
+            <input type="file" id="select" name="select"><br><br>
+            <label for="color">Choose Color </label>
+            <input type="color" id="color" name="color"><br><br>
+            <input type="reset" name="Reset">
+            <input type="submit" name="Submit">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
